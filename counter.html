@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+<link rel="stylesheet" href="count.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="navbar-brand">zayn.inc</div>
+        <ul class="navbar-links" id="navbarLinks">
+            <li><a href="counter.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="navbar-toggle" id="navbarToggle">
+            <span class="toggle-icon"></span>
+        </button>
+    </nav>
+
+   
+      
+      <div class="container">
+      <p id="welcome-el"></p>
+     <div class="center">
+        <h1>eze counter:</h1>
+        <h2 id="read">0</h2>
+     </div>
+     <button class="button" onclick="incriment()">Increment</button>
+   
+
+     <button id="save-btn" onclick="save()">save</button>
+     <p id="save-el">Previous entries: </p>
+   </div>
+   
+
+   <script src="count.js"></script>
+
+</body>
+</html>
